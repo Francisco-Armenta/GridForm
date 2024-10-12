@@ -1,20 +1,10 @@
 import Home from "./Modulos/Inicio/Inicio";
 import MyAppBar from "./Modulos/AppBar";
-
-import "./index.css";
+import "./App.css";
 
 function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        width: "100%",
-        minHeight: "100vh",
-        overflowX: "hidden",
-        overflowY: "auto",
-      }}
-    >
+    <div className="cajaPrincipal">
       <MyAppBar />
       <Home />
     </div>

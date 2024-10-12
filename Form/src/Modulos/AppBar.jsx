@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Avatar from "@mui/material/Avatar";
+
 import Logo from "../Imagenes/Logo.png";
 import LogoutIcon from "@mui/icons-material/Logout";
 import { CustomAppBar } from "./Styles";
@@ -14,7 +14,12 @@ function MyAppBar() {
   return (
     <AppBar
       position="static"
-      sx={{ backgroundColor: "white", color: "black", height: "84.91" }}
+      sx={{
+        backgroundColor: "white",
+        color: "black",
+        height: "84.91",
+        minWidth: "100vw",
+      }}
     >
       <Toolbar>
         <CustomAppBar>
@@ -31,7 +36,9 @@ function MyAppBar() {
           </IconButton>
         </CustomAppBar>
 
-        <Box sx={{ flexGrow: 1 }}>
+        <Box
+          sx={{ flexGrow: 1, display: { xs: "none", sm: "none", md: "block" } }}
+        >
           <Typography variant="h6">
             <strong>LÍNEA DE BUENA PRACTICA</strong>
           </Typography>
