@@ -12,7 +12,7 @@ function HomePc() {
       spacing={2}
       sx={{
         alignItems: "center",
-        width: "100%",
+        width: "90%",
         marginTop: "30px",
       }}
     >
