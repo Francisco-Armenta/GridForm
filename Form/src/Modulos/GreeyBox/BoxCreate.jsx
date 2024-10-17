@@ -16,7 +16,7 @@ function BoxCreate() {
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
-          gap: "10px",
+          gap: "25px",
         }}
       >
         <img

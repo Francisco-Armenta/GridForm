@@ -8,7 +8,7 @@ import { Box } from "@mui/material";
 function WhiteBoxMobile() {
   return (
     <WhiteBox>
-      <Stack sx={{ alignItems: "center", width: "100%" }}>
+      <Stack spacing={1} sx={{ alignItems: "center", width: "100%" }}>
         <Box
           sx={{
             display: "flex",
@@ -32,7 +32,7 @@ function WhiteBoxMobile() {
           </TypeManualSecondary>
         </Box>
         <Box>
-          <TypeManual sx={{ textAlign: "center" }}>
+          <TypeManual sx={{ textAlign: "center", lineHeight: "22px" }}>
             ¿Cómo hago mi denuncia? Descarga aquí el manual de cómo hacer tu
             denuncia paso por paso.
           </TypeManual>
